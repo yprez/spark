@@ -15,7 +15,7 @@ var Ticket = require('../models/ticket.js').Ticket;
 const STATUS_COMPLETED = 'Completed';
 
 const EVENT_ID = constants.DEFAULT_EVENT_ID
-const TICKETS_TYPE_IDS = [...constants.events[constants.DEFAULT_EVENT_ID].bundles]
+const TICKETS_TYPE_IDS = [...constants.events[EVENT_ID].bundles]
 var globalMinutesDelta = 0;
 
 function r(options) {

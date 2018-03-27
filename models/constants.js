@@ -138,7 +138,6 @@ module.exports = {
 
     // -- system constant --
     // note: Future release will change the event_id
-    // TODO We should not use this constant. We need to implement a mechanism that will allow the user to change the current event from the UI, therefore we can't rely on constant!
     DEFAULT_EVENT_ID: `MIDBURN${new Date().getFullYear()}`,
 
     //TODO move this to jsoninfo inside events table
